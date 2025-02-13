@@ -1,0 +1,8 @@
+[package]
+name = "RustVideoPlayer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ffmpeg-next = "7.1.0"
+iced = { version = "0.13.1", features = ["image", "markdown", "advanced"] }
